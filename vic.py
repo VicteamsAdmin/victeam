@@ -90,16 +90,16 @@ def tod():
 
 # LO KONTOL
 logo = '''\033[0;92m (C) Copyright by:VICTEAM \033[0m
-\033[0;91m  _      _  _    ____                                         \033[0m
-\033[0;91m | |    / /| |  / ____\  ______    _____     __      _      _ \033[0m
-\033[0;93m | |   / / | | | /      /   |   \ |         /  \    | \    / |\033[0m
-\033[0;93m | |  / /  | | | |          |     |____    /____\   |  \  /  |\033[0m
-\033[0;92m | |_/ /   | | | \____      |     |       /      \  |   \/   |\033[0m
-\033[0;92m |____/    |_|  \_____/     |     |_____ /        \ |        |\033[0m \033[0;92mFROM LOCAL TO GLOBAL \033[0m
+\033[0;91m  _      _  _    ____  \033[0m
+\033[0;91m | |    / /| |  / ____\\033[0m
+\033[0;93m | |   / / | | | /     \033[0m
+\033[0;93m | |  / /  | | | | TEAM\033[0m
+\033[0;92m | |_/ /   | | | \____ \033[0m
+\033[0;92m |____/    |_|  \_____/\033[0m \033[0;92mFROM LOCAL TO GLOBAL \033[0m
 
  \033[0;91m 💦💦WELCOME TO \033[0;92mVICTEAM\033[0m \033[0;91m CRACK TOOLS💦💦\033[0m 　
 　
- \033[0;93m [👉] Created by VICTEAM CREW \033[0m
+ \033[0;93m [💦] Created by VICTEAM CREW \033[0m
  \033[0;92m [👉] AWAS EPSILON \033[0m
    \033[0;91mFROM VICTEAM TO\033[0m \033[0;93mCRESPOW\033[0m'''
 
@@ -539,7 +539,7 @@ def seting_yntkts():
     print ' (%s2%s) check user agent'%(O,N)
     ytbjts = raw_input('\n %s[%s?%s] choose : '%(N,O,N))
     if ytbjts == '':
-        print '\n %s[%s×%s] Gak boleh kosong Kentod'%(N,M,N);time.sleep(2);seting_yntkts()
+        print '\n %s[%s×%s] Gobloke pas, ojok di kosongi blok'%(N,M,N);time.sleep(2);seting_yntkts()
     elif ytbjts =='1':
         yo_ndak_tau_ko_tanya_saia()
     elif ytbjts =='2':
@@ -554,7 +554,7 @@ def yo_ndak_tau_ko_tanya_saia():
     print ' (%s×%s) ketik User Agent atau My User Agent....\n'%(M,N)
     anjng = raw_input(' [%s?%s] Masukan User Agent :%s '%(O,N,H))
     if anjng == '':
-        print '\n %s[%s×%s] Gak boleh kosong Kentod'%(N,M,N);yo_ndak_tau_ko_tanya_saia()
+        print '\n %s[%s×%s] Gobloke pas, ojok di kosongi blok'%(N,M,N);yo_ndak_tau_ko_tanya_saia()
     try:
         open('YNTKTS.txt', 'w').write(anjng);time.sleep(2)
         jalan('\n %s[%s✓%s] berhasil mengganti user agent...'%(N,H,N))
