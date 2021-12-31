@@ -101,7 +101,7 @@ logo = '''\033[0;92m (C) Copyright by:VICTEAM \033[0m
 　
  \033[0;93m [💦] Created by VICTEAM CREW \033[0m
  \033[0;92m [👉] AWAS EPSILON \033[0m
-   \033[0;91mFROM VICTEAM TO\033[0m \033[0;93mCRESPOW\033[0m'''
+   \033[0;91mVICTEAM CREW\033[0m \033[0;93m(ADMIN ONLY)\033[0m'''
 
 lo_ngentod = '1714009362122228'
 # crack selesai
